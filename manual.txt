@@ -1,0 +1,40 @@
+Witaj w grze STATKI!
+Zasady:
+ W grze bierze udzial dwoch graczy, a zadaniem kazdego
+ z nich jest eliminowanie statkow przeciwnika. Kazdy z
+ graczy posiada 20 statkow, kazdy zajmujacy jedno pole
+ planszy o rozmiarze 10 x 10. Wygrywa gracz ktory jako
+ pierwszy wyeliminuje wszysktie 20 statkow przeciwnika.
+
+Aby rozpoczac nowa gre wybierz opcje 1.
+ Nastepnie wybierz jeden z trybow gry:
+  1. Gra dla dwoch graczy\n
+      W kazdym ruchu podana jest informacja o tym
+      czyja jest kolejka, dodatkowo pokazane sa
+      dane o trafieniach i stratach danego gracza.
+      Gracz widzi tez swoje rozmieszczenie statkow,
+      ktore jest ustalane losowo podczas startu gry.
+      # - oznacza statek, _ - puste pole
+
+      Do dyspozycji gracz posiada tez plansze pomocnicza
+      na ktorej oznaczone sa dotychczasowe posuniecia:
+      X - oznacza trafiony statek
+      0 - puste pole
+      _ - pole niesprawdzone
+
+      W przypadku wprowadzenia wspolrzednych pola
+      juz sprawdzonego, program prosi o ponowne ich
+      wczytanie az do podania prawidlowych danych.
+      Wprowadzenie znaku innego niz cyfra na tym
+      etapie pozwala przerwac gre i automatycznie
+      zapisac jej stan.
+
+  2. Gra z komputerem":
+      W tym trybie gracz steruje gra identycznie, po czym
+      obserwuje rezulat ruchu gracza komputerowego
+
+Opcja 2. Wczytaj gre laduje wczesniej zapisany stan gry
+jesli taki wystepuje
+
+Opcja 3. Pokazuje statystyki graczy, informacje o wygranych
+i przegranych rozgrywkach.
